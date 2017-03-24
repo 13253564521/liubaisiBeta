@@ -7,14 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4485E8C41E7922B4008BD612 /* GSShowBigImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4485E8C31E7922B4008BD612 /* GSShowBigImageViewController.m */; };
+		4485E8C71E7B8667008BD612 /* GSCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4485E8C61E7B8667008BD612 /* GSCircularProgressView.m */; };
+		44905E4B1E69189900987E94 /* GSTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905E4A1E69189900987E94 /* GSTopicModel.m */; };
+		44905E4E1E691B9000987E94 /* GSComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905E4D1E691B9000987E94 /* GSComment.m */; };
+		44905E511E691BBB00987E94 /* GSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905E501E691BBB00987E94 /* GSUser.m */; };
+		44905E541E691CE600987E94 /* NSDate+GSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905E531E691CE600987E94 /* NSDate+GSExtension.m */; };
+		44905E571E693F9700987E94 /* GSNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905E561E693F9700987E94 /* GSNewViewController.m */; };
+		44905E5D1E69465100987E94 /* GSTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905E5C1E69465100987E94 /* GSTopicPictureView.m */; };
+		44905E5F1E69465F00987E94 /* GSTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44905E5E1E69465F00987E94 /* GSTopicPictureView.xib */; };
+		44905E621E694C3C00987E94 /* GSTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905E611E694C3C00987E94 /* GSTopicVoiceView.m */; };
+		44905E641E694C5300987E94 /* GSTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44905E631E694C5300987E94 /* GSTopicVoiceView.xib */; };
+		44905E671E694EAD00987E94 /* GSTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44905E661E694EAD00987E94 /* GSTopicVideoView.m */; };
+		44905E691E694ECA00987E94 /* GSTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44905E681E694ECA00987E94 /* GSTopicVideoView.xib */; };
 		4497FE051E67B3BD00CEF62F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4497FE041E67B3BD00CEF62F /* main.m */; };
 		4497FE081E67B3BD00CEF62F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4497FE071E67B3BD00CEF62F /* AppDelegate.m */; };
-		4497FE0B1E67B3BD00CEF62F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4497FE0A1E67B3BD00CEF62F /* ViewController.m */; };
 		4497FE0E1E67B3BD00CEF62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4497FE0C1E67B3BD00CEF62F /* Main.storyboard */; };
 		4497FE101E67B3BD00CEF62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4497FE0F1E67B3BD00CEF62F /* Assets.xcassets */; };
 		4497FE131E67B3BD00CEF62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4497FE111E67B3BD00CEF62F /* LaunchScreen.storyboard */; };
 		4497FE1E1E67B3BD00CEF62F /* liubaisiBetaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4497FE1D1E67B3BD00CEF62F /* liubaisiBetaTests.m */; };
 		4497FE291E67B3BD00CEF62F /* liubaisiBetaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4497FE281E67B3BD00CEF62F /* liubaisiBetaUITests.m */; };
+		44B1ADCC1E67B6200047E448 /* GSADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADA51E67B6200047E448 /* GSADViewController.m */; };
+		44B1ADCD1E67B6200047E448 /* GSADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B1ADA61E67B6200047E448 /* GSADViewController.xib */; };
+		44B1ADCE1E67B6200047E448 /* NSString+GSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADC21E67B6200047E448 /* NSString+GSExtension.m */; };
+		44B1ADCF1E67B6200047E448 /* UIView+GSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADC41E67B6200047E448 /* UIView+GSExtension.m */; };
+		44B1ADD01E67B6200047E448 /* GSNetWorkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADC71E67B6200047E448 /* GSNetWorkTools.m */; };
+		44B1ADD11E67B6200047E448 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44B1ADC91E67B6200047E448 /* SVProgressHUD.bundle */; };
+		44B1ADD21E67B6200047E448 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADCB1E67B6200047E448 /* SVProgressHUD.m */; };
+		44B1ADD51E67B6FF0047E448 /* GSMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADD41E67B6FF0047E448 /* GSMainTabbarController.m */; };
+		44B1ADD81E67B7210047E448 /* GSMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADD71E67B7210047E448 /* GSMainNavigationController.m */; };
+		44B1ADDB1E67B7480047E448 /* GSADDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADDA1E67B7480047E448 /* GSADDTabBar.m */; };
+		44B1ADDE1E67B7AB0047E448 /* GSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADDD1E67B7AB0047E448 /* GSConst.m */; };
+		44B1ADE31E67CB490047E448 /* GSEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADE21E67CB490047E448 /* GSEssenceController.m */; };
+		44B1ADE91E67CBD60047E448 /* GSFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADE81E67CBD60047E448 /* GSFollowViewController.m */; };
+		44B1ADEC1E67CBF40047E448 /* GSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADEB1E67CBF40047E448 /* GSMeViewController.m */; };
+		44B1ADF81E67F0440047E448 /* GSRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADF01E67F0440047E448 /* GSRecommendController.m */; };
+		44B1ADF91E67F0450047E448 /* GSRecomendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADF31E67F0440047E448 /* GSRecomendModel.m */; };
+		44B1ADFA1E67F0450047E448 /* GSRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADF61E67F0440047E448 /* GSRecommendCell.m */; };
+		44B1ADFB1E67F0450047E448 /* GSRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B1ADF71E67F0440047E448 /* GSRecommendCell.xib */; };
+		44B1ADFE1E67F63B0047E448 /* GSTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1ADFD1E67F63B0047E448 /* GSTypeTableViewController.m */; };
+		44B1AE021E6817000047E448 /* GSTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1AE001E6817000047E448 /* GSTopicCell.m */; };
+		44B1AE031E6817000047E448 /* GSTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B1AE011E6817000047E448 /* GSTopicCell.xib */; };
+		44BEE9E81E7F89DC005D38E2 /* GSSquarelistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BEE9E71E7F89DC005D38E2 /* GSSquarelistModel.m */; };
+		44BEE9EB1E7FA7E4005D38E2 /* GSMeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BEE9EA1E7FA7E4005D38E2 /* GSMeCollectionViewCell.m */; };
+		44BEE9F21E7FB474005D38E2 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BEE9EF1E7FB474005D38E2 /* NJKWebViewProgress.m */; };
+		44BEE9F31E7FB474005D38E2 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BEE9F11E7FB474005D38E2 /* NJKWebViewProgressView.m */; };
+		44BEE9F71E7FB6B1005D38E2 /* GSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BEE9F51E7FB6B1005D38E2 /* GSWebViewController.m */; };
+		44BEE9F81E7FB6B1005D38E2 /* GSWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44BEE9F61E7FB6B1005D38E2 /* GSWebViewController.xib */; };
+		44BEE9FB1E7FC13E005D38E2 /* GSAddPlusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BEE9FA1E7FC13E005D38E2 /* GSAddPlusViewController.m */; };
+		44BEE9FE1E7FD601005D38E2 /* GSTopImageBottomText.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BEE9FD1E7FD601005D38E2 /* GSTopImageBottomText.m */; };
+		852348D1E9B3BCDF2B8D4273 /* libPods-liubaisiBetaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC3549FCB902866297C5EB5 /* libPods-liubaisiBetaTests.a */; };
+		B41B941460456E6D4185C372 /* libPods-liubaisiBeta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A746C14979B3500249711DE6 /* libPods-liubaisiBeta.a */; };
+		E037F1B1DCE1A22283E50B32 /* libPods-liubaisiBetaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0AF7633591D2581FB58C9F /* libPods-liubaisiBetaUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +79,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4485E8C21E7922B4008BD612 /* GSShowBigImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSShowBigImageViewController.h; sourceTree = "<group>"; };
+		4485E8C31E7922B4008BD612 /* GSShowBigImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSShowBigImageViewController.m; sourceTree = "<group>"; };
+		4485E8C51E7B8667008BD612 /* GSCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSCircularProgressView.h; sourceTree = "<group>"; };
+		4485E8C61E7B8667008BD612 /* GSCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSCircularProgressView.m; sourceTree = "<group>"; };
+		44905E491E69189900987E94 /* GSTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTopicModel.h; sourceTree = "<group>"; };
+		44905E4A1E69189900987E94 /* GSTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTopicModel.m; sourceTree = "<group>"; };
+		44905E4C1E691B9000987E94 /* GSComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSComment.h; sourceTree = "<group>"; };
+		44905E4D1E691B9000987E94 /* GSComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSComment.m; sourceTree = "<group>"; };
+		44905E4F1E691BBB00987E94 /* GSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUser.h; sourceTree = "<group>"; };
+		44905E501E691BBB00987E94 /* GSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUser.m; sourceTree = "<group>"; };
+		44905E521E691CE600987E94 /* NSDate+GSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+GSExtension.h"; sourceTree = "<group>"; };
+		44905E531E691CE600987E94 /* NSDate+GSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GSExtension.m"; sourceTree = "<group>"; };
+		44905E551E693F9700987E94 /* GSNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSNewViewController.h; sourceTree = "<group>"; };
+		44905E561E693F9700987E94 /* GSNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSNewViewController.m; sourceTree = "<group>"; };
+		44905E5B1E69465100987E94 /* GSTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTopicPictureView.h; sourceTree = "<group>"; };
+		44905E5C1E69465100987E94 /* GSTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTopicPictureView.m; sourceTree = "<group>"; };
+		44905E5E1E69465F00987E94 /* GSTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSTopicPictureView.xib; sourceTree = "<group>"; };
+		44905E601E694C3C00987E94 /* GSTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTopicVoiceView.h; sourceTree = "<group>"; };
+		44905E611E694C3C00987E94 /* GSTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTopicVoiceView.m; sourceTree = "<group>"; };
+		44905E631E694C5300987E94 /* GSTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSTopicVoiceView.xib; sourceTree = "<group>"; };
+		44905E651E694EAD00987E94 /* GSTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTopicVideoView.h; sourceTree = "<group>"; };
+		44905E661E694EAD00987E94 /* GSTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTopicVideoView.m; sourceTree = "<group>"; };
+		44905E681E694ECA00987E94 /* GSTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSTopicVideoView.xib; sourceTree = "<group>"; };
 		4497FE001E67B3BD00CEF62F /* liubaisiBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liubaisiBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4497FE041E67B3BD00CEF62F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4497FE061E67B3BD00CEF62F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4497FE071E67B3BD00CEF62F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4497FE091E67B3BD00CEF62F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4497FE0A1E67B3BD00CEF62F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4497FE061E67B3BD00CEF62F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		4497FE071E67B3BD00CEF62F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		4497FE0D1E67B3BD00CEF62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4497FE0F1E67B3BD00CEF62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4497FE121E67B3BD00CEF62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +116,70 @@
 		4497FE241E67B3BD00CEF62F /* liubaisiBetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liubaisiBetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4497FE281E67B3BD00CEF62F /* liubaisiBetaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = liubaisiBetaUITests.m; sourceTree = "<group>"; };
 		4497FE2A1E67B3BD00CEF62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B1ADA41E67B6200047E448 /* GSADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSADViewController.h; sourceTree = "<group>"; };
+		44B1ADA51E67B6200047E448 /* GSADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSADViewController.m; sourceTree = "<group>"; };
+		44B1ADA61E67B6200047E448 /* GSADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSADViewController.xib; sourceTree = "<group>"; };
+		44B1ADC11E67B6200047E448 /* NSString+GSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GSExtension.h"; sourceTree = "<group>"; };
+		44B1ADC21E67B6200047E448 /* NSString+GSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GSExtension.m"; sourceTree = "<group>"; };
+		44B1ADC31E67B6200047E448 /* UIView+GSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GSExtension.h"; sourceTree = "<group>"; };
+		44B1ADC41E67B6200047E448 /* UIView+GSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GSExtension.m"; sourceTree = "<group>"; };
+		44B1ADC61E67B6200047E448 /* GSNetWorkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSNetWorkTools.h; sourceTree = "<group>"; };
+		44B1ADC71E67B6200047E448 /* GSNetWorkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSNetWorkTools.m; sourceTree = "<group>"; };
+		44B1ADC91E67B6200047E448 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		44B1ADCA1E67B6200047E448 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		44B1ADCB1E67B6200047E448 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		44B1ADD31E67B6FF0047E448 /* GSMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMainTabbarController.h; sourceTree = "<group>"; };
+		44B1ADD41E67B6FF0047E448 /* GSMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMainTabbarController.m; sourceTree = "<group>"; };
+		44B1ADD61E67B7210047E448 /* GSMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMainNavigationController.h; sourceTree = "<group>"; };
+		44B1ADD71E67B7210047E448 /* GSMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMainNavigationController.m; sourceTree = "<group>"; };
+		44B1ADD91E67B7480047E448 /* GSADDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSADDTabBar.h; sourceTree = "<group>"; };
+		44B1ADDA1E67B7480047E448 /* GSADDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSADDTabBar.m; sourceTree = "<group>"; };
+		44B1ADDC1E67B7AB0047E448 /* GSConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSConst.h; sourceTree = "<group>"; };
+		44B1ADDD1E67B7AB0047E448 /* GSConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSConst.m; sourceTree = "<group>"; };
+		44B1ADDF1E67B7CF0047E448 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		44B1ADE01E67BAA60047E448 /* URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		44B1ADE11E67CB490047E448 /* GSEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSEssenceController.h; sourceTree = "<group>"; };
+		44B1ADE21E67CB490047E448 /* GSEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSEssenceController.m; sourceTree = "<group>"; };
+		44B1ADE71E67CBD60047E448 /* GSFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSFollowViewController.h; sourceTree = "<group>"; };
+		44B1ADE81E67CBD60047E448 /* GSFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSFollowViewController.m; sourceTree = "<group>"; };
+		44B1ADEA1E67CBF40047E448 /* GSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMeViewController.h; sourceTree = "<group>"; };
+		44B1ADEB1E67CBF40047E448 /* GSMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMeViewController.m; sourceTree = "<group>"; };
+		44B1ADEF1E67F0440047E448 /* GSRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSRecommendController.h; sourceTree = "<group>"; };
+		44B1ADF01E67F0440047E448 /* GSRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSRecommendController.m; sourceTree = "<group>"; };
+		44B1ADF21E67F0440047E448 /* GSRecomendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSRecomendModel.h; sourceTree = "<group>"; };
+		44B1ADF31E67F0440047E448 /* GSRecomendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSRecomendModel.m; sourceTree = "<group>"; };
+		44B1ADF51E67F0440047E448 /* GSRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSRecommendCell.h; sourceTree = "<group>"; };
+		44B1ADF61E67F0440047E448 /* GSRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSRecommendCell.m; sourceTree = "<group>"; };
+		44B1ADF71E67F0440047E448 /* GSRecommendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSRecommendCell.xib; sourceTree = "<group>"; };
+		44B1ADFC1E67F63B0047E448 /* GSTypeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTypeTableViewController.h; sourceTree = "<group>"; };
+		44B1ADFD1E67F63B0047E448 /* GSTypeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTypeTableViewController.m; sourceTree = "<group>"; };
+		44B1ADFF1E6817000047E448 /* GSTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTopicCell.h; sourceTree = "<group>"; };
+		44B1AE001E6817000047E448 /* GSTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTopicCell.m; sourceTree = "<group>"; };
+		44B1AE011E6817000047E448 /* GSTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSTopicCell.xib; sourceTree = "<group>"; };
+		44BEE9E61E7F89DC005D38E2 /* GSSquarelistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSSquarelistModel.h; sourceTree = "<group>"; };
+		44BEE9E71E7F89DC005D38E2 /* GSSquarelistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSSquarelistModel.m; sourceTree = "<group>"; };
+		44BEE9E91E7FA7E4005D38E2 /* GSMeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMeCollectionViewCell.h; sourceTree = "<group>"; };
+		44BEE9EA1E7FA7E4005D38E2 /* GSMeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMeCollectionViewCell.m; sourceTree = "<group>"; };
+		44BEE9EE1E7FB474005D38E2 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		44BEE9EF1E7FB474005D38E2 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		44BEE9F01E7FB474005D38E2 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		44BEE9F11E7FB474005D38E2 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		44BEE9F41E7FB6B1005D38E2 /* GSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWebViewController.h; sourceTree = "<group>"; };
+		44BEE9F51E7FB6B1005D38E2 /* GSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWebViewController.m; sourceTree = "<group>"; };
+		44BEE9F61E7FB6B1005D38E2 /* GSWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWebViewController.xib; sourceTree = "<group>"; };
+		44BEE9F91E7FC13E005D38E2 /* GSAddPlusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAddPlusViewController.h; sourceTree = "<group>"; };
+		44BEE9FA1E7FC13E005D38E2 /* GSAddPlusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSAddPlusViewController.m; sourceTree = "<group>"; };
+		44BEE9FC1E7FD601005D38E2 /* GSTopImageBottomText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTopImageBottomText.h; sourceTree = "<group>"; };
+		44BEE9FD1E7FD601005D38E2 /* GSTopImageBottomText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTopImageBottomText.m; sourceTree = "<group>"; };
+		4E0AF7633591D2581FB58C9F /* libPods-liubaisiBetaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-liubaisiBetaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7543E21065EF61AFE53198 /* Pods-liubaisiBetaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liubaisiBetaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-liubaisiBetaTests/Pods-liubaisiBetaTests.release.xcconfig"; sourceTree = "<group>"; };
+		5119397B5812B9206D106097 /* Pods-liubaisiBetaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liubaisiBetaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-liubaisiBetaUITests/Pods-liubaisiBetaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73161542624281BAE904E7FF /* Pods-liubaisiBetaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liubaisiBetaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liubaisiBetaTests/Pods-liubaisiBetaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C5E60434096780BA4E73114 /* Pods-liubaisiBeta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liubaisiBeta.release.xcconfig"; path = "Pods/Target Support Files/Pods-liubaisiBeta/Pods-liubaisiBeta.release.xcconfig"; sourceTree = "<group>"; };
+		83C15BDCF1F9E97DD90C1290 /* Pods-liubaisiBeta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liubaisiBeta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liubaisiBeta/Pods-liubaisiBeta.debug.xcconfig"; sourceTree = "<group>"; };
+		880962D5CC731E3AE8C10865 /* Pods-liubaisiBetaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liubaisiBetaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liubaisiBetaUITests/Pods-liubaisiBetaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A746C14979B3500249711DE6 /* libPods-liubaisiBeta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-liubaisiBeta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC3549FCB902866297C5EB5 /* libPods-liubaisiBetaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-liubaisiBetaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41B941460456E6D4185C372 /* libPods-liubaisiBeta.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852348D1E9B3BCDF2B8D4273 /* libPods-liubaisiBetaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +203,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E037F1B1DCE1A22283E50B32 /* libPods-liubaisiBetaUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B0FF46247924A7969064BDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83C15BDCF1F9E97DD90C1290 /* Pods-liubaisiBeta.debug.xcconfig */,
+				7C5E60434096780BA4E73114 /* Pods-liubaisiBeta.release.xcconfig */,
+				73161542624281BAE904E7FF /* Pods-liubaisiBetaTests.debug.xcconfig */,
+				4E7543E21065EF61AFE53198 /* Pods-liubaisiBetaTests.release.xcconfig */,
+				880962D5CC731E3AE8C10865 /* Pods-liubaisiBetaUITests.debug.xcconfig */,
+				5119397B5812B9206D106097 /* Pods-liubaisiBetaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4497FDF71E67B3BD00CEF62F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +230,8 @@
 				4497FE1C1E67B3BD00CEF62F /* liubaisiBetaTests */,
 				4497FE271E67B3BD00CEF62F /* liubaisiBetaUITests */,
 				4497FE011E67B3BD00CEF62F /* Products */,
+				3B0FF46247924A7969064BDC /* Pods */,
+				8E075AB257A5922208A9A492 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +248,7 @@
 		4497FE021E67B3BD00CEF62F /* liubaisiBeta */ = {
 			isa = PBXGroup;
 			children = (
-				4497FE061E67B3BD00CEF62F /* AppDelegate.h */,
-				4497FE071E67B3BD00CEF62F /* AppDelegate.m */,
-				4497FE091E67B3BD00CEF62F /* ViewController.h */,
-				4497FE0A1E67B3BD00CEF62F /* ViewController.m */,
-				4497FE0C1E67B3BD00CEF62F /* Main.storyboard */,
-				4497FE0F1E67B3BD00CEF62F /* Assets.xcassets */,
-				4497FE111E67B3BD00CEF62F /* LaunchScreen.storyboard */,
-				4497FE141E67B3BD00CEF62F /* Info.plist */,
+				44B1ADA21E67B6200047E448 /* Classes */,
 				4497FE031E67B3BD00CEF62F /* Supporting Files */,
 			);
 			path = liubaisiBeta;
@@ -117,7 +257,12 @@
 		4497FE031E67B3BD00CEF62F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4497FE0C1E67B3BD00CEF62F /* Main.storyboard */,
+				4497FE0F1E67B3BD00CEF62F /* Assets.xcassets */,
+				4497FE111E67B3BD00CEF62F /* LaunchScreen.storyboard */,
+				4497FE141E67B3BD00CEF62F /* Info.plist */,
 				4497FE041E67B3BD00CEF62F /* main.m */,
+				44B1ADDF1E67B7CF0047E448 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +285,382 @@
 			path = liubaisiBetaUITests;
 			sourceTree = "<group>";
 		};
+		44B1ADA21E67B6200047E448 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADED1E67F0440047E448 /* Recommend */,
+				44B1ADA31E67B6200047E448 /* AD */,
+				44B1ADA71E67B6200047E448 /* Essence */,
+				44B1ADAB1E67B6200047E448 /* Follow */,
+				44B1ADAF1E67B6200047E448 /* Main */,
+				44B1ADB31E67B6200047E448 /* Me */,
+				44B1ADB71E67B6200047E448 /* MiddleADD */,
+				44B1ADBB1E67B6200047E448 /* New */,
+				44B1ADBF1E67B6200047E448 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		44B1ADA31E67B6200047E448 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADA41E67B6200047E448 /* GSADViewController.h */,
+				44B1ADA51E67B6200047E448 /* GSADViewController.m */,
+				44B1ADA61E67B6200047E448 /* GSADViewController.xib */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		44B1ADA71E67B6200047E448 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADA81E67B6200047E448 /* Controller */,
+				44B1ADA91E67B6200047E448 /* Model */,
+				44B1ADAA1E67B6200047E448 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		44B1ADA81E67B6200047E448 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADE11E67CB490047E448 /* GSEssenceController.h */,
+				44B1ADE21E67CB490047E448 /* GSEssenceController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B1ADA91E67B6200047E448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B1ADAA1E67B6200047E448 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B1ADAB1E67B6200047E448 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADAC1E67B6200047E448 /* Controller */,
+				44B1ADAD1E67B6200047E448 /* Model */,
+				44B1ADAE1E67B6200047E448 /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		44B1ADAC1E67B6200047E448 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADE71E67CBD60047E448 /* GSFollowViewController.h */,
+				44B1ADE81E67CBD60047E448 /* GSFollowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B1ADAD1E67B6200047E448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B1ADAE1E67B6200047E448 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B1ADAF1E67B6200047E448 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADB01E67B6200047E448 /* Controller */,
+				44B1ADB11E67B6200047E448 /* Model */,
+				44B1ADB21E67B6200047E448 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		44B1ADB01E67B6200047E448 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADD31E67B6FF0047E448 /* GSMainTabbarController.h */,
+				44B1ADD41E67B6FF0047E448 /* GSMainTabbarController.m */,
+				44B1ADD61E67B7210047E448 /* GSMainNavigationController.h */,
+				44B1ADD71E67B7210047E448 /* GSMainNavigationController.m */,
+				44B1ADFC1E67F63B0047E448 /* GSTypeTableViewController.h */,
+				44B1ADFD1E67F63B0047E448 /* GSTypeTableViewController.m */,
+				4485E8C21E7922B4008BD612 /* GSShowBigImageViewController.h */,
+				4485E8C31E7922B4008BD612 /* GSShowBigImageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B1ADB11E67B6200047E448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44905E491E69189900987E94 /* GSTopicModel.h */,
+				44905E4A1E69189900987E94 /* GSTopicModel.m */,
+				44905E4C1E691B9000987E94 /* GSComment.h */,
+				44905E4D1E691B9000987E94 /* GSComment.m */,
+				44905E4F1E691BBB00987E94 /* GSUser.h */,
+				44905E501E691BBB00987E94 /* GSUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B1ADB21E67B6200047E448 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADD91E67B7480047E448 /* GSADDTabBar.h */,
+				44B1ADDA1E67B7480047E448 /* GSADDTabBar.m */,
+				44B1ADFF1E6817000047E448 /* GSTopicCell.h */,
+				44B1AE001E6817000047E448 /* GSTopicCell.m */,
+				44B1AE011E6817000047E448 /* GSTopicCell.xib */,
+				44905E5B1E69465100987E94 /* GSTopicPictureView.h */,
+				44905E5C1E69465100987E94 /* GSTopicPictureView.m */,
+				44905E5E1E69465F00987E94 /* GSTopicPictureView.xib */,
+				44905E601E694C3C00987E94 /* GSTopicVoiceView.h */,
+				44905E611E694C3C00987E94 /* GSTopicVoiceView.m */,
+				44905E631E694C5300987E94 /* GSTopicVoiceView.xib */,
+				44905E651E694EAD00987E94 /* GSTopicVideoView.h */,
+				44905E661E694EAD00987E94 /* GSTopicVideoView.m */,
+				44905E681E694ECA00987E94 /* GSTopicVideoView.xib */,
+				4485E8C51E7B8667008BD612 /* GSCircularProgressView.h */,
+				4485E8C61E7B8667008BD612 /* GSCircularProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B1ADB31E67B6200047E448 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADB41E67B6200047E448 /* Controller */,
+				44B1ADB51E67B6200047E448 /* Model */,
+				44B1ADB61E67B6200047E448 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		44B1ADB41E67B6200047E448 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADEA1E67CBF40047E448 /* GSMeViewController.h */,
+				44B1ADEB1E67CBF40047E448 /* GSMeViewController.m */,
+				44BEE9F41E7FB6B1005D38E2 /* GSWebViewController.h */,
+				44BEE9F51E7FB6B1005D38E2 /* GSWebViewController.m */,
+				44BEE9F61E7FB6B1005D38E2 /* GSWebViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B1ADB51E67B6200047E448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44BEE9E61E7F89DC005D38E2 /* GSSquarelistModel.h */,
+				44BEE9E71E7F89DC005D38E2 /* GSSquarelistModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B1ADB61E67B6200047E448 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44BEE9E91E7FA7E4005D38E2 /* GSMeCollectionViewCell.h */,
+				44BEE9EA1E7FA7E4005D38E2 /* GSMeCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B1ADB71E67B6200047E448 /* MiddleADD */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADB81E67B6200047E448 /* Controller */,
+				44B1ADB91E67B6200047E448 /* Model */,
+				44B1ADBA1E67B6200047E448 /* View */,
+			);
+			path = MiddleADD;
+			sourceTree = "<group>";
+		};
+		44B1ADB81E67B6200047E448 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44BEE9F91E7FC13E005D38E2 /* GSAddPlusViewController.h */,
+				44BEE9FA1E7FC13E005D38E2 /* GSAddPlusViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B1ADB91E67B6200047E448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B1ADBA1E67B6200047E448 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44BEE9FC1E7FD601005D38E2 /* GSTopImageBottomText.h */,
+				44BEE9FD1E7FD601005D38E2 /* GSTopImageBottomText.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B1ADBB1E67B6200047E448 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADBC1E67B6200047E448 /* Controller */,
+				44B1ADBD1E67B6200047E448 /* Model */,
+				44B1ADBE1E67B6200047E448 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		44B1ADBC1E67B6200047E448 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44905E551E693F9700987E94 /* GSNewViewController.h */,
+				44905E561E693F9700987E94 /* GSNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B1ADBD1E67B6200047E448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B1ADBE1E67B6200047E448 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B1ADBF1E67B6200047E448 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4497FE061E67B3BD00CEF62F /* AppDelegate.h */,
+				4497FE071E67B3BD00CEF62F /* AppDelegate.m */,
+				44B1ADE01E67BAA60047E448 /* URL.h */,
+				44B1ADDC1E67B7AB0047E448 /* GSConst.h */,
+				44B1ADDD1E67B7AB0047E448 /* GSConst.m */,
+				44BEE9EC1E7FB474005D38E2 /* Third */,
+				44B1ADC01E67B6200047E448 /* Category */,
+				44B1ADC51E67B6200047E448 /* Tools */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		44B1ADC01E67B6200047E448 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADC11E67B6200047E448 /* NSString+GSExtension.h */,
+				44B1ADC21E67B6200047E448 /* NSString+GSExtension.m */,
+				44B1ADC31E67B6200047E448 /* UIView+GSExtension.h */,
+				44B1ADC41E67B6200047E448 /* UIView+GSExtension.m */,
+				44905E521E691CE600987E94 /* NSDate+GSExtension.h */,
+				44905E531E691CE600987E94 /* NSDate+GSExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		44B1ADC51E67B6200047E448 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADC61E67B6200047E448 /* GSNetWorkTools.h */,
+				44B1ADC71E67B6200047E448 /* GSNetWorkTools.m */,
+				44B1ADC81E67B6200047E448 /* SVProgressHUD */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		44B1ADC81E67B6200047E448 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADC91E67B6200047E448 /* SVProgressHUD.bundle */,
+				44B1ADCA1E67B6200047E448 /* SVProgressHUD.h */,
+				44B1ADCB1E67B6200047E448 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		44B1ADED1E67F0440047E448 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADEE1E67F0440047E448 /* Controller */,
+				44B1ADF11E67F0440047E448 /* Model */,
+				44B1ADF41E67F0440047E448 /* View */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		44B1ADEE1E67F0440047E448 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADEF1E67F0440047E448 /* GSRecommendController.h */,
+				44B1ADF01E67F0440047E448 /* GSRecommendController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B1ADF11E67F0440047E448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADF21E67F0440047E448 /* GSRecomendModel.h */,
+				44B1ADF31E67F0440047E448 /* GSRecomendModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B1ADF41E67F0440047E448 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44B1ADF51E67F0440047E448 /* GSRecommendCell.h */,
+				44B1ADF61E67F0440047E448 /* GSRecommendCell.m */,
+				44B1ADF71E67F0440047E448 /* GSRecommendCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44BEE9EC1E7FB474005D38E2 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				44BEE9ED1E7FB474005D38E2 /* NJKWebViewProgress */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		44BEE9ED1E7FB474005D38E2 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				44BEE9EE1E7FB474005D38E2 /* NJKWebViewProgress.h */,
+				44BEE9EF1E7FB474005D38E2 /* NJKWebViewProgress.m */,
+				44BEE9F01E7FB474005D38E2 /* NJKWebViewProgressView.h */,
+				44BEE9F11E7FB474005D38E2 /* NJKWebViewProgressView.m */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+		8E075AB257A5922208A9A492 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A746C14979B3500249711DE6 /* libPods-liubaisiBeta.a */,
+				AAC3549FCB902866297C5EB5 /* libPods-liubaisiBetaTests.a */,
+				4E0AF7633591D2581FB58C9F /* libPods-liubaisiBetaUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +668,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4497FE2D1E67B3BD00CEF62F /* Build configuration list for PBXNativeTarget "liubaisiBeta" */;
 			buildPhases = (
+				C2EB8AE36FD811F35817AAC6 /* [CP] Check Pods Manifest.lock */,
 				4497FDFC1E67B3BD00CEF62F /* Sources */,
 				4497FDFD1E67B3BD00CEF62F /* Frameworks */,
 				4497FDFE1E67B3BD00CEF62F /* Resources */,
+				E82AA9E4F43B679828D15645 /* [CP] Embed Pods Frameworks */,
+				EFF62E5B3665E7A4DF3B043E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +688,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4497FE301E67B3BD00CEF62F /* Build configuration list for PBXNativeTarget "liubaisiBetaTests" */;
 			buildPhases = (
+				72DC2F2F0017CFCCCBA6DA5F /* [CP] Check Pods Manifest.lock */,
 				4497FE151E67B3BD00CEF62F /* Sources */,
 				4497FE161E67B3BD00CEF62F /* Frameworks */,
 				4497FE171E67B3BD00CEF62F /* Resources */,
+				A86BA1D4202FE3912B1B6362 /* [CP] Embed Pods Frameworks */,
+				4E9D7F1DFE9D2B154D55457A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +709,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4497FE331E67B3BD00CEF62F /* Build configuration list for PBXNativeTarget "liubaisiBetaUITests" */;
 			buildPhases = (
+				0748440F5DE46842931CD6D1 /* [CP] Check Pods Manifest.lock */,
 				4497FE201E67B3BD00CEF62F /* Sources */,
 				4497FE211E67B3BD00CEF62F /* Frameworks */,
 				4497FE221E67B3BD00CEF62F /* Resources */,
+				4C8C25A0643AA01B5D144FFF /* [CP] Embed Pods Frameworks */,
+				B4D9A1D708CED46AC2D1AD70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +732,7 @@
 		4497FDF81E67B3BD00CEF62F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GS;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "刘高升";
 				TargetAttributes = {
@@ -249,9 +780,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BEE9F81E7FB6B1005D38E2 /* GSWebViewController.xib in Resources */,
+				44905E691E694ECA00987E94 /* GSTopicVideoView.xib in Resources */,
+				44B1ADFB1E67F0450047E448 /* GSRecommendCell.xib in Resources */,
+				44B1ADD11E67B6200047E448 /* SVProgressHUD.bundle in Resources */,
 				4497FE131E67B3BD00CEF62F /* LaunchScreen.storyboard in Resources */,
+				44905E641E694C5300987E94 /* GSTopicVoiceView.xib in Resources */,
+				44B1ADCD1E67B6200047E448 /* GSADViewController.xib in Resources */,
+				44B1AE031E6817000047E448 /* GSTopicCell.xib in Resources */,
 				4497FE101E67B3BD00CEF62F /* Assets.xcassets in Resources */,
 				4497FE0E1E67B3BD00CEF62F /* Main.storyboard in Resources */,
+				44905E5F1E69465F00987E94 /* GSTopicPictureView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +810,185 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0748440F5DE46842931CD6D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C8C25A0643AA01B5D144FFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liubaisiBetaUITests/Pods-liubaisiBetaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E9D7F1DFE9D2B154D55457A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liubaisiBetaTests/Pods-liubaisiBetaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72DC2F2F0017CFCCCBA6DA5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A86BA1D4202FE3912B1B6362 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liubaisiBetaTests/Pods-liubaisiBetaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D9A1D708CED46AC2D1AD70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liubaisiBetaUITests/Pods-liubaisiBetaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2EB8AE36FD811F35817AAC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E82AA9E4F43B679828D15645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liubaisiBeta/Pods-liubaisiBeta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF62E5B3665E7A4DF3B043E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liubaisiBeta/Pods-liubaisiBeta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4497FDFC1E67B3BD00CEF62F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4497FE0B1E67B3BD00CEF62F /* ViewController.m in Sources */,
+				44BEE9F21E7FB474005D38E2 /* NJKWebViewProgress.m in Sources */,
+				44BEE9E81E7F89DC005D38E2 /* GSSquarelistModel.m in Sources */,
 				4497FE081E67B3BD00CEF62F /* AppDelegate.m in Sources */,
+				44B1ADCC1E67B6200047E448 /* GSADViewController.m in Sources */,
+				44B1ADD51E67B6FF0047E448 /* GSMainTabbarController.m in Sources */,
 				4497FE051E67B3BD00CEF62F /* main.m in Sources */,
+				44905E671E694EAD00987E94 /* GSTopicVideoView.m in Sources */,
+				44B1ADE31E67CB490047E448 /* GSEssenceController.m in Sources */,
+				44B1ADFA1E67F0450047E448 /* GSRecommendCell.m in Sources */,
+				44905E4E1E691B9000987E94 /* GSComment.m in Sources */,
+				44905E541E691CE600987E94 /* NSDate+GSExtension.m in Sources */,
+				44B1ADD21E67B6200047E448 /* SVProgressHUD.m in Sources */,
+				44905E621E694C3C00987E94 /* GSTopicVoiceView.m in Sources */,
+				44B1ADDB1E67B7480047E448 /* GSADDTabBar.m in Sources */,
+				44B1ADFE1E67F63B0047E448 /* GSTypeTableViewController.m in Sources */,
+				44B1ADCE1E67B6200047E448 /* NSString+GSExtension.m in Sources */,
+				44B1ADF91E67F0450047E448 /* GSRecomendModel.m in Sources */,
+				44B1ADE91E67CBD60047E448 /* GSFollowViewController.m in Sources */,
+				44905E4B1E69189900987E94 /* GSTopicModel.m in Sources */,
+				44905E5D1E69465100987E94 /* GSTopicPictureView.m in Sources */,
+				4485E8C41E7922B4008BD612 /* GSShowBigImageViewController.m in Sources */,
+				44905E511E691BBB00987E94 /* GSUser.m in Sources */,
+				44BEE9FB1E7FC13E005D38E2 /* GSAddPlusViewController.m in Sources */,
+				44B1AE021E6817000047E448 /* GSTopicCell.m in Sources */,
+				44BEE9F71E7FB6B1005D38E2 /* GSWebViewController.m in Sources */,
+				44B1ADF81E67F0440047E448 /* GSRecommendController.m in Sources */,
+				4485E8C71E7B8667008BD612 /* GSCircularProgressView.m in Sources */,
+				44BEE9F31E7FB474005D38E2 /* NJKWebViewProgressView.m in Sources */,
+				44B1ADD01E67B6200047E448 /* GSNetWorkTools.m in Sources */,
+				44905E571E693F9700987E94 /* GSNewViewController.m in Sources */,
+				44B1ADCF1E67B6200047E448 /* UIView+GSExtension.m in Sources */,
+				44BEE9FE1E7FD601005D38E2 /* GSTopImageBottomText.m in Sources */,
+				44B1ADDE1E67B7AB0047E448 /* GSConst.m in Sources */,
+				44BEE9EB1E7FA7E4005D38E2 /* GSMeCollectionViewCell.m in Sources */,
+				44B1ADEC1E67CBF40047E448 /* GSMeViewController.m in Sources */,
+				44B1ADD81E67B7210047E448 /* GSMainNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +1133,14 @@
 		};
 		4497FE2E1E67B3BD00CEF62F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C15BDCF1F9E97DD90C1290 /* Pods-liubaisiBeta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
+				GCC_PREFIX_HEADER = /Users/liugaosheng/Desktop/liubaisiBeta/liubaisiBeta/PrefixHeader.pch;
 				INFOPLIST_FILE = liubaisiBeta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LiuBaiSi.liubaisiBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,10 +1149,14 @@
 		};
 		4497FE2F1E67B3BD00CEF62F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5E60434096780BA4E73114 /* Pods-liubaisiBeta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
+				GCC_PREFIX_HEADER = /Users/liugaosheng/Desktop/liubaisiBeta/liubaisiBeta/PrefixHeader.pch;
 				INFOPLIST_FILE = liubaisiBeta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LiuBaiSi.liubaisiBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +1165,7 @@
 		};
 		4497FE311E67B3BD00CEF62F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73161542624281BAE904E7FF /* Pods-liubaisiBetaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
@@ -460,6 +1179,7 @@
 		};
 		4497FE321E67B3BD00CEF62F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7543E21065EF61AFE53198 /* Pods-liubaisiBetaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
@@ -473,6 +1193,7 @@
 		};
 		4497FE341E67B3BD00CEF62F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880962D5CC731E3AE8C10865 /* Pods-liubaisiBetaUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
 				INFOPLIST_FILE = liubaisiBetaUITests/Info.plist;
@@ -485,6 +1206,7 @@
 		};
 		4497FE351E67B3BD00CEF62F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5119397B5812B9206D106097 /* Pods-liubaisiBetaUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
 				INFOPLIST_FILE = liubaisiBetaUITests/Info.plist;
@@ -514,6 +1236,7 @@
 				4497FE2F1E67B3BD00CEF62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4497FE301E67B3BD00CEF62F /* Build configuration list for PBXNativeTarget "liubaisiBetaTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +1245,7 @@
 				4497FE321E67B3BD00CEF62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4497FE331E67B3BD00CEF62F /* Build configuration list for PBXNativeTarget "liubaisiBetaUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +1254,7 @@
 				4497FE351E67B3BD00CEF62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
